@@ -1,8 +1,8 @@
 // const end=new Date("30 August 2023 12:00:00 AM").getTime();
-const end=new Date().getTime();
+const end=new Date("30 August 2024 12:00:00 AM").getTime();
 const inputs = document.querySelectorAll("input");
 function clocks() {
-    const now = new Date("30 August 2024 12:00:00 AM").getTime();
+    const now = new Date().getTime();
     var distance = end - now;
     if (distance <= 0) {
         document.getElementById("show").style.display="block";
